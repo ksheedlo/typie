@@ -1,0 +1,44 @@
+{
+  "name": "typie",
+  "version": "1.0.0",
+  "description": "Safe type coercion for Javascript and Typescript",
+  "main": "dist/node/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "tslint -f src/Typie.ts -f test/Typie.ts",
+    "pretest": "npm run lint",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksheedlo/typie.git"
+  },
+  "keywords": [
+    "type",
+    "coercion",
+    "types"
+  ],
+  "author": "Ken Sheedlo <ovrkenthousand@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksheedlo/typie/issues"
+  },
+  "homepage": "https://github.com/ksheedlo/typie",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^2.0.0",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.10",
+    "karma-opera-launcher": "^0.1.0",
+    "karma-safari-launcher": "^0.1.1",
+    "mocha": "^2.1.0",
+    "tslint": "^2.1.1",
+    "typescript": "^1.4.1",
+    "uglify-js": "^2.4.16"
+  }
+}
