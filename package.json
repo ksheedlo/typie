@@ -2,7 +2,7 @@
   "name": "typie",
   "version": "1.0.0",
   "description": "Safe type coercion for Javascript and Typescript",
-  "main": "dist/node/index.js",
+  "main": "dist/node/Typie.js",
   "directories": {
     "test": "test"
   },
