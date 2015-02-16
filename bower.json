@@ -1,0 +1,27 @@
+{
+  "name": "typie",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ksheedlo/typie",
+  "authors": [
+    "Ken Sheedlo <ken.sheedlo@rackspace.com>"
+  ],
+  "description": "Typesafe type coercion for Javascript and Typescript",
+  "main": "dist/web/Typie.js",
+  "keywords": [
+    "type",
+    "coercion",
+    "types",
+    "boolean",
+    "integer",
+    "number",
+    "typescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
