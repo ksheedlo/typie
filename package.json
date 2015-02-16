@@ -1,6 +1,6 @@
 {
   "name": "typie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Safe type coercion for Javascript and Typescript",
   "main": "dist/node/Typie.js",
   "directories": {
